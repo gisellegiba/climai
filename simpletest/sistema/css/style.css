@@ -1,0 +1,56 @@
+* { padding:0; margin:0; outline:0; }
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	background:#c3f6da;
+}
+
+.left { float:left; display:inline; }
+.right { float:right; display:inline; }
+
+a { color:#364f86; text-decoration: none; cursor:pointer; }
+a:hover { color:#000; }
+
+.orange { color:#d96a02; }
+.red { color:#be4856; }
+
+.shell { width:980px; margin:0 auto; }
+
+#header { height:82px; }
+#header h1{ float:left; white-space:nowrap; padding-top:8px; font-size:25px; line-height:35px; color:#fff;}
+
+#header #head { height:43px; overflow:hidden; }
+#header .right { color:#fff; white-space:nowrap; font-size:10px; }
+#header .right p{ padding-top:12px;}
+#header .right a strong{ text-decoration: underline; }
+
+#navigation { height:31px; }
+#navigation ul{ list-style-type: none; padding-top:8px; font-size:11px; }
+#navigation ul li{ float:left; display:inline; margin-right:5px;}
+#navigation ul li a,
+#navigation ul li a span { float:left; display:inline; height:31px; padding:0 0 0 8px; background:#f4aced; }
+#navigation ul li a span { padding:0 8px 0 0; background-position:right 0; }
+#navigation ul li a { color:#231054; line-height:29px;}
+#navigation ul li a.active { font-weight: bold;}
+
+/*para quando o menu já foi selecionado*/
+#navigation ul li a:hover,
+#navigation ul li a.active { background-position:0 bottom; color:#eee558; }
+
+#navigation ul li a:hover span,
+#navigation ul li a.active span{ background-position:right bottom; }
+/*FIM = para quando o menu já foi selecionado*/
+
+#content { padding:10px 0 20px 0; }
+#content p{ padding-bottom:15px;}
+#content ol,
+#content ul{ padding: 0 0 15px 25px;}
+#content li{ padding-bottom:3px; }
+#content a { text-decoration: underline;}
+#content a:hover { text-decoration: none;}
+
+.message { width:630px; height:50px; background-repeat:no-repeat; background-position:0 0; text-align: center; margin:0 auto 15px auto; font-size:13px;}
+.message p{ padding-top:14px;}
+.error-message { background-image:url(images/error.gif); color:#973729; }
+.thank-message { background-image:url(images/thank.gif); color:#3d8b26; }

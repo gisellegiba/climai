@@ -1,0 +1,2 @@
+INSERT INTO servicos (descricao,mes,ano,valor,planos_idplanos,funcionarios_matricula,funcionarios_especialidades_idespecialidades)
+values ('Consulta Psicologia','03','2012',80.00,5,1,1)
